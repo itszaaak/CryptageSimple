@@ -6,7 +6,7 @@ Le fonctionnement du chiffrement César est assez simple. Chaque lettre du messa
 
 En utilisant l'opérateur modulo (représenté par le symbole `%`), nous pouvons nous assurer que le décalage reste toujours à l'intérieur de la plage valide des indices de l'alphabet. Par exemple, si nous avons un alphabet de 26 lettres, le modulo 26 nous ramènera toujours à un nombre entre 0 et 25.
 
-Voici un exemple de chiffrement César avec un décalage de 3 :
+Voici un exemple de chiffrement César avec un décalage de 3 modullo 26 :
 
 Message d'origine : "HELLO"
 Message chiffré : "KHOOR"

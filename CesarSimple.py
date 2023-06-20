@@ -28,7 +28,7 @@ def bruteforce(message):                #definition fonction de Bruteforce si on
 
 
 print("\n")  #retours a la ligne pour separer 
-print("*****Porogramme Cryptage Cesar simple*****")     #mise en place d'un mini menu
+print("*****Programme Cryptage Cesar simple*****")     #mise en place d'un mini menu
 choix = int(input("Voulez vous Crypter, Decrypter ou Bruteforce? choix(1, 2 ou 3): "))
 
 if choix == 1:
